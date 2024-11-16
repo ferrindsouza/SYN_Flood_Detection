@@ -56,6 +56,11 @@ By leveraging data collected from network traffic under both normal and attack s
     ```bash 
         pip install -r requirements.txt```
 
+4. Install and start Apache to act as web server using the following command:
+    ```bash 
+        sudo apt update
+        sudo apt install apache2 sudo service apache2 start```
+
 ## Data Collection
     - Followed the steps mentioned in Dataset Creation
     - Monitored the traffic on wireshare and saved it in an .cap file fir further analysis.
@@ -73,6 +78,7 @@ By leveraging data collected from network traffic under both normal and attack s
     - Extend the detection system to other types of DoS/DDoS attacks.
     - Implementing real-time detection using trained models.
 
+## Note: This repository dosen't contain the complete code to prevent palgarism.
 
 ## Contributors
     Ferrin Dsouza
